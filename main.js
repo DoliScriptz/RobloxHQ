@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 
 app.use(express.json());
 
-const webhookUrl = "https://discord.com/api/webhooks/1262390634862346250/mofvVvsxnwggu0Q9qqF90YrmlFn5kLGxRveT9xfivDQhucp_VYON-nHgCZaL-bOvcYP3";
+const webhookUrl = "https://discord.com/api/webhooks/1272214855537004635/vFuG34YxCJGzFJxed0yguebL42VLlZUZf4ep2m3Zp2BITV-wDUE1X-8KWWbfJ1oYzGWR";
 
 app.post("/webhook", async (req, res) => {
     const { executorName } = req.body;
